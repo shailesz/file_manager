@@ -1,7 +1,6 @@
 from os import path, listdir
 from shutil import move
-from check_file_type import check_file_type
-from make_directory import make_directory
+from functions import check_file_type, make_directory
 
 # dictionary for file types
 VIDEO = ['m1v', 'mpeg', 'mov', 'qt', 'mpa', 'mpg', 'mpe', 'avi', 'movie', 'mp4']
